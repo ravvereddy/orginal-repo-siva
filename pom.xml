@@ -201,15 +201,15 @@
     </plugins>
   </build>
   <distributionManagement>
-    <snapshotRepository>
-        <id>NexusSonar</id>
-        <name>NexusSonar</name>
-        <url>http://13.127.250.249:8081/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
     <repository>
         <id>NexusSonar</id>
-        <name>NexusSonar</name>
-        <url>http://13.127.250.249:8081/nexus/content/repositories/releases/</url>
+        <name>NexusArti</name>
+        <url>http://13.127.250.249:8081/nexus/content/repositories/NexusSonar/</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Snapshots</name>
+        <url>http://13.127.250.249:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
